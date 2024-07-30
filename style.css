@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -7,23 +8,23 @@ body {
 }
 .header-logo {
     border: 90px solid rgb(48, 44, 48);
-    height: 80px; 
-    margin-bottom: 80px; 
+    height: 80px;
+    margin-bottom: 80px;
 }
 
 main {
     display: grid;
     grid-template-rows: auto 2fr;
-    gap: 90rem;
+    gap: 1rem;
     padding:1rem;
-    border: 10px solid hwb(33 90% 5%);
+    border: 20px solid hwb(33 90% 5%);
 }
 
 .intro {
     border: 0px solid rgba(255, 40, 255, 0.828);
-    height: 160px; 
+    height: 190px;
     background-color:hwb(33 90% 5%);
-    margin-bottom: 30px; 
+    margin-bottom: 90px;
 }
 
 .intro h1 {
@@ -34,24 +35,27 @@ main {
  
 
 .intro p {
-    margin: 10px 0px;
-    font-size: 16px;
+    margin: 100px;
+    font-size: 160px;
     color:rgba(138, 48, 96, 0.776)    
 }
 
 .content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20rem;
-    border: 1px hwb(37 14% 81%);
+    grid-template-columns: 2fr 2fr;
+    gap: 1rem;
+    border: 1px hwb(33 90% 5%);
 }
 .formatos img {
-height: 400%; 
+height: 400%;
 max-height: 15px;
-width: 150px;
+width: 10px;
 
-.description quote {
-    border: 0px solid  hwb(33 90% 5%);
+}
+
+.description, .quote {
+    border: 0px solid hwb(33 90% 5%);
+    height: 250px;
 }
 .footer {
     border: 9px solid  hwb(33 90% 5%);

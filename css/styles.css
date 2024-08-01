@@ -42,8 +42,8 @@ main {
 
 .content {
     display: grid;
-    grid-template-columns: 2fr 2fr;
-    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 20rem;
     border: 1px hwb(33 90% 5%);
 }
 
@@ -57,7 +57,7 @@ main {
 .description,
 .quote {
     border: 0px solid hwb(33 90% 5%);
-    height: 250px;
+    height: 0px;
 }
 
 .footer {

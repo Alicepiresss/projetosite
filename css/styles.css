@@ -77,7 +77,6 @@ main {
     .header-nav {
         height: auto;
     }
-
     .content {
         grid-template-columns: 1fr;
     }

@@ -16,12 +16,12 @@ main {
     grid-template-rows: auto 0fr;
     gap: 01em;
     padding: 1rem;
-    border: 60px solid hwb(33 90% 5%);
+    border: 50px solid hwb(33 90% 5%);
 }
 
 .intro {
     border: 0px solid rgba(255, 40, 255, 0.828);
-    height: 166px; 
+    height: 290px; 
     background-color:hwb(33 90% 5%);
     margin-bottom: 0px; 
 }
@@ -57,9 +57,9 @@ width: 150px;
 
 }
 .footer {
-    border: 9px solid  hwb(33 90% 5%);
-    height: 6px;
-    padding: 3rem;
+    border: 5px solid  hwb(33 90% 5%);
+    height: 80px;
+    padding: 1rem;
 }
 
 @media (max-width: 768px) {

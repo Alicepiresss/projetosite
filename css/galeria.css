@@ -22,7 +22,7 @@ main {
 
 .intro {
     border: 0px solid rgba(255, 40, 255, 0.828);
-    height: 160px;
+    height: 200px;
     background-color: hwb(33 90% 5%);
     margin-bottom: 30px;
 }

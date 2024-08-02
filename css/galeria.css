@@ -21,7 +21,7 @@ main {
 
 .intro {
     border: 0px solid rgba(255, 40, 255, 0.828);
-    height: 290px; 
+    height: 350px; 
     background-color:hwb(33 90% 5%);
     margin-bottom: 0px; 
 }
@@ -73,7 +73,7 @@ width: 150px;
     .header-nav {
         height: auto;
     }
-
     .content {
         grid-template-columns: 1fr;
-   
+    }
+}
